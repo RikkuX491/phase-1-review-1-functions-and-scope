@@ -55,7 +55,8 @@ changePasta()
  * Step 1 - Declare a function named "playASport".
  * Step 2 - Inside of the "playASport" function, declare a function named "playSoccer" that prints the string "GOAL!!!" to the console.
  * Step 3 - The return value of the "playASport" function should be the "playSoccer" function. Thus making "playASport" a function that returns another function.
- * Step 4 - Invoke the "playASport" function.
+ * Step 4 - Invoke the "playASport" function, and assign its resulting value to a variable named "scoreAGoal". "scoreAGoal" is now a function, since the return value of "playASport" is a function.
+ * Step 5 - Invoke the "scoreAGoal" function.
  */
 
 /*
